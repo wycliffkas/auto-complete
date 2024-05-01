@@ -1,0 +1,32 @@
+input {
+	width: 50%;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+.highlight {
+	background-color: rgb(139, 167, 245);
+	font-weight: bold;
+}
+
+.dropdown {
+	width: 50%;
+	text-align: left;
+	font-weight: 500;
+	color: #000000;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 10px;
+	margin: auto;
+}
+
+.dropdown:hover {
+	background-color: #e6e4e4;
+}
+
+.no-results {
+	margin-top: 20px;
+}
